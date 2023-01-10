@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a9a2c0ddde.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">  
 </head>
 
 <body>
@@ -29,16 +30,13 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projetos</a>
+                    <a class="nav-link" href="#projetos">Projetos</a>
                  </li>  
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre mim</a>
-                 </li>  
+                    <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                 </li>    
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Depoimentos</a>
-                 </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                  </li>  
             </ul>
           </div>
@@ -57,21 +55,55 @@
       </section>
   </header>
   <main>
-    <div class="album py-5 bg-light">
+    <section class="jumbotron text-center" id="sobre-mim">
+      <div class="conteiner">
+        <h2 class="jumbotron text-center">Sobre mim</h2>
+        <p class="lead">Olá, após seis anos na força aérea brasileira e estou iniciando minha carreira na área de desenvolvimento, 
+          tenho formação em análise e Desenvolvimento de Sistemas e diversos cursos. Minhas principais habilidades estão no front-end sendo as ferramentas que mais utilizo são 
+          JavaScript, HTML/CSS, React, NodeJS, Bootstrap e Angular. Também tenho experiencia da faculdade com JAVA, C# e Banco de Dados com SQL.</p>
+      </div>
+    </section>  
+    <div class="album py-5 bg-light" id="projetos">
         <div class="container">
-
+          <h2 class="jumbotron text-center">PROJETOS</h2>
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="">  <!-- Nesse src e onde vai a imagem do projeto -->
+                <img class="card-img-top" data-src="">  <!-- Nesse src e onde vai a imagem do projeto imagem precisa ser em widescreen -->
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Descriçao do projeto, aqui ira ser a minha estante</p>
+                  <ul>
+                    <li>React</li>
+                    <li>JSX</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Google Books API</li>
+                  </ul>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Visitar Projeto</button> <!--Esse link ira direcionar ao prpojeto hospedado -->
+                      <a href="https://github.com/VitorAriza98/PROJ_Minha-Estante"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                     </div>
-                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="">  <!-- Nesse src e onde vai a imagem do projeto a imagem precisa ser em widescreen -->
+                <div class="card-body">
+                  <p class="card-text">Descriçao do projeto, aqui ira ser a calculadora </p>
+                  <ul>
+                    <li>React</li>
+                    <li>JSX</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Visitar Projeto</button> <!-- Esse link ira direcionar ao prpojeto hospedado -->
+                      <a href="https://github.com/VitorAriza98/PROJ_Calculadora"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a> <!-- Esse link a pagina no github -->
+                    </div>
                   </div>
                 </div>
               </div>
@@ -80,28 +112,17 @@
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="">  <!-- Nesse src e onde vai a imagem do projeto -->
                 <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Descriçao do projeto, aqui ira ser a lista de tarefas.</p>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>  
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Visitar Projeto</button>
+                      <a href="https://github.com/VitorAriza98/PROJ_Lista-de-Tarefas"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="">  <!-- Nesse src e onde vai a imagem do projeto -->
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -111,7 +132,14 @@
       </div>
   </main>
   <footer>
-    <!-- place footer here -->
+    <section id="contato">
+      <div>
+        <div class="conteiner-fluid">
+         <h3 class="text-center">Disponivel para contato</h3> 
+         <a href="mailto:vitorariza@Outlook.com"><h4 class="text-center">vitorariza@Outlook.com</h4></a> 
+        </div>
+      </div>
+    </section>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
