@@ -1,4 +1,55 @@
 html {
     scroll-behavior: smooth;
 }
+.corPrimaria {
+    background-color: rgb(14, 104, 14)
+}
+.corSecundaria {
+    background-color: white
+}
+.corTerciaria {
+    background-color: black
+}
+body {
+    background-color: black
+}
+footer {
+    background-color: white
+}
 
+.titulo {
+  text-decoration: underline;
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.titulo2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+  }
+
+.titulo3 {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+  }  
+
+.lead {
+   color:white
+  }
+
+.iconeLink {
+    color:rgb(29, 98, 187)
+  }
+.iconeMail {
+    color: rgb(29, 98, 187)
+  }
+  
